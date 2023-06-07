@@ -1,7 +1,7 @@
 import './Recipes.scss';
 import Nav from './Nav';
 import Footer from './Footer';
-import Vegans from './Vegans';
+import Recipe from './Recipe';
 
 
 const Recipes = () => {
@@ -57,7 +57,7 @@ const Recipes = () => {
                     </div>
                 </div>
             </div>
-            <Vegans/>
+            <Recipe/>
             <Footer/>
         </section>
     );

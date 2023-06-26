@@ -1,7 +1,7 @@
 import './Recipes.scss';
 import Nav from './Nav';
 import Footer from './Footer';
-import Recipe from './Recipe';
+import TabBoot from './TabBoot';
 
 
 const Recipes = () => {
@@ -35,29 +35,46 @@ const Recipes = () => {
                 <div className="col-md-6 second">
                     <div className="pictures">
                         <div className="image-five"></div>
-                        <div className="image-one">
-                            <img src="./imgs/bunrecipe.png" alt="" />
-                            {/* <div className="overlay"></div> */}
-                        </div>
+                       <div className="first-img">
+                            <div className="image-one">
+                                <img src="./imgs/bunrecipe.png" alt="" />
+                                <div className="overlay"></div>
+                            </div>
                             <div className="gif">
                                 <img src="./imgs/gif.gif" alt="" />
                             </div>
-                        <div className="image-two">
-                            <img src="./imgs/plate.png" alt="" />
-                            <div className="overlay"></div>
+                       </div>
+                        <div className="second-img">
+                            <div className="image-two">
+                                <img src="./imgs/plate.png" alt="" />
+                                <div className="overlay"></div>
+                            </div>
+                            <div className="gif">
+                                <img src="./imgs/gif.gif" alt="" />
+                            </div>
                         </div>
-                        <div className="image-three">
-                            <img src="./imgs/bunslices.png" alt="" />
-                            <div className="overlay"></div>
+                        <div className="third-img">
+                            <div className="image-three">
+                                <img src="./imgs/bunslices.png" alt="" />
+                                <div className="overlay"></div>
+                            </div>
+                            <div className="gif">
+                                <img src="./imgs/gif.gif" alt="" />
+                            </div>
                         </div>
-                        <div className="image-four">
-                            <img src="./imgs/recipes banner.png" alt="" />
-                            <div className="overlay"></div>
-                        </div>
+                       <div className="fourth-img">
+                            <div className="image-four">
+                                <img src="./imgs/recipes banner.png" alt="" />
+                                <div className="overlay"></div>
+                            </div>
+                            <div className="gif">
+                                <img src="./imgs/gif.gif" alt="" />
+                            </div>
+                       </div>
                     </div>
                 </div>
             </div>
-            <Recipe/>
+            <TabBoot/>
             <Footer/>
         </section>
     );

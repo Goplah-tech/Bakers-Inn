@@ -5,7 +5,7 @@ import Footer from './Footer';
 
 const About = () => {
     return (
-        <section className="about">
+<section className="about">
             <Nav/>
             <div className="home">
                 <div className="about-overlay"></div>
@@ -70,12 +70,12 @@ const About = () => {
      </div>
      <div className="container promise">
         <div className="row">
-            <div className="col-md-6 image">
+            <div className="col-md-6 imagee">
                 
                     <img src="./imgs/ceo.png" alt="" />
                 
             </div>
-            <div className="col-md-6 text">
+            <div className="col-md-6 textt">
                 
                     <h2>PROMISE OF QUALITY</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptas ducimus velit necessitatibus magnam? Blanditiis incidunt eum ratione unde similique quae culpa veniam velit ipsam. Nam, nisi. Aut ut ducimus at vitae, cum labore quo nihil, amet, repellat molestiae laboriosam. Quae optio temporibus possimus nesciunt maiores soluta, facere beatae totam!</p>
@@ -91,7 +91,7 @@ const About = () => {
         </div>
      </div>
      <Footer/>
-        </section>
+</section>
     );
 }
  

@@ -1,5 +1,6 @@
 import Nav from './Nav';
 import Footer from './Footer';
+import Tabs from './Tabs';
 import './Products.scss'
 
 
@@ -17,15 +18,15 @@ const Products = () => {
             </div>
             <div className="our-products">
                 <h2>Our Products</h2>
-                <div className="tabs">
+                {/* <div className="tabs">
                     <h5>Bread</h5>
                     <h5>Meat Pies</h5>
                     <h5>Scones</h5>
                     <h5>Donuts</h5>
-                </div>
-                <div className="line"></div>
+                </div> */}
+                {/* <div className="line"></div> */}
                 <div className="scroll-container">
-            <div className="container bread">
+            {/* <div className="container bread">
                 
                    <div className="">
                    <div className="card first">
@@ -70,9 +71,10 @@ const Products = () => {
                         </div>
                     </div>
                 
+            </div> */}
             </div>
             </div>
-            </div>
+            <Tabs/>
             <Footer/>
         </section>
     );

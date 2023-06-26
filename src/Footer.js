@@ -1,11 +1,11 @@
-import './Footer.scss'
+import './index.scss'
 
 
 const Footer = () => {
     return (
         <section className="footer">
             <div className="container">
-                <div className="row">
+                <div className="row top">
                     <div className="col-md-5">
                         <div className="first-line"></div>
                     </div>
@@ -50,9 +50,11 @@ const Footer = () => {
                                 <img src="./imgs/call.png" alt="" />
                                 <p>08080151</p>
                             </div>
-                            <p>08080152</p>
+                           <div className="middle">
+                           <p>08080152</p>
                             <p>+263 242 751 481</p>
                             <p>+263 242 710 334</p>
+                           </div>
                             <div className="marketing">
                                 <img src="./imgs/mail.png" alt="" />
                                 <p>marketing@bakersinnzim.com</p>

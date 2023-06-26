@@ -51,63 +51,72 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div className="table">
+                <div className="tablee">
                     <h2>List Of Baker's Inn Depots</h2>
-                    <table className='first table-bordered'>
-                        <tr>
-                            <td><h5>Depot</h5></td>
-                            <td><h5>Address</h5></td>
-                            <td><h5>Phone Number</h5></td>
-                        </tr>
-                        <div className="dash"></div>
-                        <tr>
-                        <td><h5>Chinhoyi Depot</h5></td>
-                        <td><p>95/94 Josiah Tongogara St,Industrial Site, Chinhoyi</p></td>
-                        <td><h5>0772 318 309</h5></td>
-                        </tr>
-                        <tr>
-                        <td><h5>Chinhoyi Depot</h5></td>
-                        <td><p>95/94 Josiah Tongogara St,Industrial Site, Chinhoyi</p></td>
-                        <td><h5>0772 318 309</h5></td>
-                        </tr>
-                        <tr>
-                        <td><h5>Chinhoyi Depot</h5></td>
-                        <td><p>95/94 Josiah Tongogara St,Industrial Site, Chinhoyi</p></td>
-                        <td><h5>0772 318 309</h5></td>
-                        </tr>
-                        <tr>
-                        <td><h5>Chinhoyi Depot</h5></td>
-                        <td><p>95/94 Josiah Tongogara St,Industrial Site, Chinhoyi</p></td>
-                        <td><h5>0772 318 309</h5></td>
-                        </tr>
-                    </table>
-                    <table className='secondy table-bordered'>
-                        <tr>
-                        <td><h5>Chinhoyi Depot</h5></td>
-                        <td><p>95/94 Josiah Tongogara St,Industrial Site, Chinhoyi</p></td>
-                        <td><h5>0772 318 309</h5></td>
-                        </tr>
-                        <tr>
-                        <td><h5>Chinhoyi Depot</h5></td>
-                        <td><p>95/94 Josiah Tongogara St,Industrial Site, Chinhoyi</p></td>
-                        <td><h5>0772 318 309</h5></td>
-                        </tr>
-                        <tr>
-                        <td><h5>Chinhoyi Depot</h5></td>
-                        <td><p>95/94 Josiah Tongogara St,Industrial Site, Chinhoyi</p></td>
-                        <td><h5>0772 318 309</h5></td>
-                        </tr>
-                        <tr>
-                        <td><h5>Chinhoyi Depot</h5></td>
-                        <td><p>95/94 Josiah Tongogara St,Industrial Site, Chinhoyi</p></td>
-                        <td><h5>0772 318 309</h5></td>
-                        </tr>
-                        <tr>
-                        <td><h5>Chinhoyi Depot</h5></td>
-                        <td><p>95/94 Josiah Tongogara St,Industrial Site, Chinhoyi</p></td>
-                        <td><h5>0772 318 309</h5></td>
-                        </tr>
-                    </table>
+                            <div className="container">
+                            <table class="table table-bordered">
+    <thead>
+      <tr className='head'>
+        <th className='first'>Firstname</th>
+        <th className='second'>Lastname</th>
+        <th className='third'>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td className='depot'>Chinhoyi Depot</td>
+        <td className='address'>94/95 Josiah Tongogara St, Indusrial Site, Chinhoyi</td>
+        <td className='number'>0772 318 309</td>
+      </tr>
+      <tr>
+        <td className='depot'>Bindura Depot</td>
+        <td className='address'>461 Luton Road, Industrial Site, Bindura</td>
+        <td className='number'>066 2107317</td>
+      </tr>
+      <tr>
+        <td className='depot'>Murehwa Depot</td>
+        <td className='address'>Stand number 351, Murehwa Growth Point</td>
+        <td className='number'>0652 122 514</td>
+      </tr>
+      <tr className='first-row'>
+        <td className='depot'>Mutare Depot</td>
+        <td className='address'>5-7 Glassglow Road, Industrial Site, Mutare</td>
+        <td className='number'>020 60715</td>
+      </tr>
+      <tr className='empty-row'>
+        <td className='depot'></td>
+        <td className='depot'></td>
+        <td className='number'></td>
+      </tr>
+      <tr className='second-row'>
+        <td className='depot'>Hwange Depot</td>
+        <td className='address'>29 Derby Drive, Hwange Industrial Site</td>
+        <td className='number'>0281 2820105</td>
+      </tr>
+      <tr className='third-row'>
+        <td className='depot'>Chiredzi Depot</td>
+        <td className='address'>329 Lion Drive, Chiredzi</td>
+        <td className='number'>0231 231 2709</td>
+      </tr>
+      <tr className='first-row'>
+        <td className='depot'>Masvingo Depot</td>
+        <td className='address'>1310 Mineral Road, Masving</td>
+        <td className='number'>john@example.com</td>
+      </tr>
+      <tr className='second-row'>
+        <td className='depot'>Mary</td>
+        <td className='address'>Moe</td>
+        <td className='number'>mary@example.com</td>
+      </tr>
+      <tr className='third-row'>
+        <td className='depot'>July</td>
+        <td className='address'>Dooley</td>
+        <td className='number'>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+                            </div>
+                    
                 </div>
                 <div className="donation">
                     <div className="container">

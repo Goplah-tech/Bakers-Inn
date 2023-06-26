@@ -1,6 +1,9 @@
-const Factory = (props) => {
 
-    const tittle = "Book A Factory Tour";
+
+const Donation = (props) => {
+
+
+    const tittle = "Request Donation";
 
     return (
         
@@ -33,24 +36,16 @@ const Factory = (props) => {
                 <p>Plant Visit <a href="/">Safety Regulations</a></p>
             </div>
             <div className="long-text">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                    <label class="form-check-label" for="flexCheckDefault">
-                        Your organisation has agreed to the submission of this application and you have authorisation to submit it. The information you <br /> have provided on behalf of your organisation is accurate, full and correct.
-                    </label>
-                </div>
+                <div className="box"></div>
+                <p>Your organisation has agreed to the submission of this application and you have authorisation to submit it. The information you <br /> have provided on behalf of your organisation is accurate, full and correct.</p>
             </div>
             <div className="short-text">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked/>
-                    <label class="form-check-label" for="flexCheckChecked">
-                        Not yet checked
-                    </label>
-                </div>
+                <div className="box"></div>
+                <p>Have Read The Safety Regulations</p>
             </div>
-            <button>SUBMIT</button>
+            <button>PROCEED TO NEXT STEP</button>
         </div>
     );
 }
  
-export default Factory;
+export default Donation;

@@ -24,8 +24,6 @@ const Nav = () => {
          </ul>
          <button><NavLink to="/contact"><span>CONTACT US</span></NavLink></button>
          </div>
-         
-        
        </div>
     );
 }

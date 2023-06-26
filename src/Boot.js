@@ -1,36 +1,26 @@
-import React from 'react';
-import { useState } from "react";
 
 
+const Tab = () => {
 
-const Recipe = () => {
-    const [activeTab, setActiveTab] = useState(1);
-    function tabChanger(index){
-        setActiveTab(index)
-    }
+            const head = 'GOPLAH';
 
 
-    const head = 'Shwarma Sandwich';
-
-    
     return (
-
-        <div className="recipes">
-        <div className="head">
-            <h2>Baker's Recipes</h2>
-        </div>
-        <div className="taxt">
-            <button onClick={()=>{tabChanger(1)}} className={activeTab === 1 ? 'active' :''}>For Kids</button>
-            <button onClick={()=>{tabChanger(2)}} className={activeTab === 2 ? 'active' :''}>For Vegans</button>
-            <button onClick={()=>{tabChanger(3)}} className={activeTab === 3 ? 'active' :''}>For Family</button>
-        </div>
-        <div className="line"></div>
-        <div className="overlays">
-            <div className="over-one"></div>
-            <div className="over-two"></div>
-            <div className="over-three"></div>
-        </div>
-        <div className="sandwiches">
+        <>
+            <ul className="nav nav-tabs" id="myTab" role="tablist">
+  <li className="nav-item" role="presentation">
+    <button className="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+  </li>
+  <li className="nav-item" role="presentation">
+    <button className="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+  </li>
+  <li className="nav-item" role="presentation">
+    <button className="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+  </li>
+</ul>
+<div className="tab-content" id="myTabContent">
+  <div className="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+         <div className="sandwiches">
             <div className="sandwich-one">
                 <img src="./imgs/shwarma.png" alt="" />
                 <h5>{ head }</h5>
@@ -71,12 +61,14 @@ const Recipe = () => {
                 </div>
             </div>
         </div>
-      </div>
 
-    
-    
-
+        
+  </div>
+  <div className="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+  <div className="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+</div>
+        </>
     );
 }
  
-export default Recipe;
+export default Tab;

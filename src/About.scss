@@ -75,63 +75,136 @@ table {
 }
 
 
-// .Navbar {
-//     background-color: #ffffff;
-//     min-height: 30px;
-//     display: flex;
-//     flex-direction: row;
-//     align-items: center;
-//     justify-content: center;
-//     font-size: calc(10px + 2vmin);
-//     color: white;
-//   }
-//   .App-links{
-//     display: flex;
-//     flex-direction: row;
-//     margin-top: 30px;
-//   }
-  
-//   .App-links ul{
-//     color: rgb(51, 17, 115);
-//     display: flex;
-//     flex-direction: row;
-//     text-decoration: none;
-//     margin-right: 0px;
-//     padding: 10px;
-//     margin-top: 0px;
-//   }
-//   .Navbar li{
-//     color: rgb(51, 17, 115);
-//     display: flex;
-//     flex-direction: row;
-//     text-decoration: none;
-    
-//   }
-//   .Navbar a{
-//     color: rgb(51, 17, 115);
-//     display: flex;
-//     flex-direction: row;
-//     text-decoration: none;
-//     margin-bottom: 0px;
-//     font-family: 'black';
-//     margin: auto;
-//     padding: 6px;
-//   }
-//   .Navbar button{
-//     margin-bottom: 0px;
-//     height: 55px;
-//     width: 200px;
-//     border-radius: 5px;
-//     border: 0;
-//     background-color: rgb(182, 145, 61);
-//     // margin-right: 35px;
-//     color: rgb(231, 231, 231);
-//     font-size: 20px;
-//     font-family: 'black';
-//     margin-top: 0px;
-//     margin-left: 10px;
-//   }
+
  
+  .home{
+    background-image: url('about us header.png');
+    position: relative;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    display: flex;
+    height: 600px;
+  }
+
+  .home h2{
+    position: absolute;
+    font-family: 'black';
+    margin-left: 20px;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    top: 89%;
+  }
+  .arrow{
+    margin-left: 86%;
+    z-index: 999;
+  }
+  .arrow img{
+    z-index: 999;
+    width: 100%;
+    margin-top: 530px;
+   
+  }
+  .about-overlay{ bottom: 0; left: 0; position: absolute;  width: 100%; height: 164px; background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%); transform: matrix(1, 0, 0, -1, 0, 0); border-radius: 7px;}
+
+  .mission{
+    display: flex;  background-color: rgb(247, 246, 231); margin-top: 80px; height: 400px; border-radius: 5px; align-items: center; justify-content: center;
+    .our-mission{display: flex;flex-direction: row; 
+    img{width: 23%;height: 38%;}
+    h2{
+      font-family: 'black';
+      margin-left: 10px;
+      margin-top: -70px;
+      font-size: 40px;
+      color: rgb(47, 9, 113);
+      top: 50%;}
+      p{margin-left: 10px;
+        margin-top: 0px;
+        line-height: 25px;
+        font-size: 18px;
+        font-family: 'light';
+        color: rgb(39, 14, 86);}
+  }
+  .our-vision{
+    display: flex; flex-direction: row;
+    img{width: 23%;height: 38%;}
+    h2{
+      font-family: 'black';
+      margin-left: 10px;
+      margin-top: -70px;
+      font-size: 40px;
+      color: rgb(47, 9, 113);
+      top: 85%;}
+      p{margin-left: 10px;
+        margin-top: 0px;
+        line-height: 25px;
+        font-size: 18px;
+        font-family: 'light';
+        color: rgb(39, 14, 86);}
+  }
+  }
+
+  .values{
+    background-color: rgb(248, 248, 248); margin-top: 90px;
+    h2{text-align: center;padding-top: 70px;color: rgb(47, 9, 113);font-size: 40px;font-family: 'black';}
+    .first-row{
+      display: flex; flex-direction: column; text-align: center; padding: -20px;
+      h5{color: rgb(47, 9, 113);font-size: 30px;font-family: 'black';margin-top: 20px;}
+      p{color: rgb(47, 9, 113);font-size: 17px;font-family: 'light';margin-top: 10px;line-height: 19px;}
+      img{width: 80%;}
+    }
+    .second-row{ display: flex; flex-direction: column; text-align: center; justify-content: center; padding-bottom: 90px;
+      h5{color: rgb(47, 9, 113);font-size: 30px;font-family: 'black';margin-top: 20px;}
+      p{color: rgb(47, 9, 113);font-size: 17px;font-family: 'light';margin-top: 10px;line-height: 19px;}
+      img{width: 80%;}}
+  }
+  .promise{
+    margin-top: 20px;
+  }
+  .imagee{margin-left: 20px;
+    img{width: 100%;}
+  }
+  .textt{
+    h2{padding-top: 90px;color: rgb(47, 9, 113);font-size: 30px;font-family: 'black';}
+    p{color: rgb(47, 9, 113);font-size: 17px;font-family: 'light';margin-top: 10px;line-height: 19px;margin-left: -1px;}
+    .signature{display: flex;flex-direction: row; margin-left: 0%;
+    img{width: 60%;position: relative;margin-left: 0px;}
+    h3{color: rgb(47, 9, 113);font-size: 25px;font-family: 'black';margin-top: 70px;}
+    hr{background-color: rgba(192, 191, 191, 0.018);height: 2px;width: 220px;position: absolute;margin-top: 100px;margin-left: 80px;}
+    }
+  }
+
+
+
+
+
+
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 568px) {  
+
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+
   .home{
     background-image: url('about us header.png');
     position: relative;
@@ -215,10 +288,10 @@ table {
   .promise{
     margin-top: 20px;
   }
-  .image{
+  .imagee{
     img{width: 100%;}
   }
-  .text{
+  .textt{
     h2{padding-top: 90px;color: rgb(47, 9, 113);font-size: 30px;font-family: 'black';}
     p{color: rgb(47, 9, 113);font-size: 17px;font-family: 'light';margin-top: 10px;line-height: 19px;margin-left: -1px;}
     .signature{display: flex;flex-direction: row; margin-left: 40%;
@@ -230,39 +303,108 @@ table {
 
 
 
-
-
-
-
-/*
-####################################################
-M E D I A  Q U E R I E S
-####################################################
-*/
-
-/*
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-Bootstrap 4 breakpoints
-*/
-
-/* 
-Extra small devices (portrait phones, less than 576px) 
-No media query since this is the default in Bootstrap because it is "mobile first"
-*/
-
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 568px) {  
-
-}
-
-/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 768px) {  
-
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+
+  .home{
+    background-image: url('about us header.png');
+    position: relative;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    display: flex;
+    height: 600px;
+  }
+
+  .home h2{
+    position: absolute;
+    font-family: 'black';
+    margin-left: 50px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    top: 85%;
+  }
+  .arrow{
+    margin-left: 96%;
+  }
+  .arrow img{
+    z-index: 999;
+    width: 80%;
+    margin-top: 530px;
+   
+  }
+  .about-overlay{ bottom: 0; left: 0; position: absolute;  width: 100%; height: 164px; background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%); transform: matrix(1, 0, 0, -1, 0, 0); border-radius: 7px;}
+
+  .mission{
+    display: flex;  background-color: rgb(247, 246, 231); margin-top: 180px; height: 400px; border-radius: 5px; align-items: center; justify-content: center;
+    .our-mission{display: flex;flex-direction: row; 
+    img{width: 23%;height: 38%;}
+    h2{
+      font-family: 'black';
+      margin-left: 30px;
+      margin-top: 40px;
+      font-size: 40px;
+      color: rgb(47, 9, 113);
+      top: 85%;}
+      p{margin-left: 30px;
+        margin-top: 0px;
+        line-height: 25px;
+        font-size: 18px;
+        font-family: 'light';
+        color: rgb(39, 14, 86);}
+  }
+  .our-vision{
+    display: flex; 
+    img{width: 23%;height: 38%;}
+    h2{
+      font-family: 'black';
+      margin-left: 30px;
+      margin-top: 40px;
+      font-size: 40px;
+      color: rgb(47, 9, 113);
+      top: 85%;}
+      p{margin-left: 30px;
+        margin-top: 0px;
+        line-height: 25px;
+        font-size: 18px;
+        font-family: 'light';
+        color: rgb(39, 14, 86);}
+  }
+  }
+
+  .values{
+    background-color: rgb(248, 248, 248); margin-top: 190px;
+    h2{text-align: center;padding-top: 70px;color: rgb(47, 9, 113);font-size: 40px;font-family: 'black';}
+    .first-row{
+      display: flex; flex-direction: row; text-align: center; padding: -20px;
+      h5{color: rgb(47, 9, 113);font-size: 30px;font-family: 'black';margin-top: 20px;}
+      p{color: rgb(47, 9, 113);font-size: 17px;font-family: 'light';margin-top: 10px;line-height: 19px;}
+      img{width: 80%;}
+    }
+    .second-row{ display: flex; flex-direction: row; text-align: center; justify-content: center; padding-bottom: 90px;
+      h5{color: rgb(47, 9, 113);font-size: 30px;font-family: 'black';margin-top: 20px;}
+      p{color: rgb(47, 9, 113);font-size: 17px;font-family: 'light';margin-top: 10px;line-height: 19px;}
+      img{width: 70%;}}
+  }
+  .promise{
+    margin-top: 20px;
+  }
+  .imagee{
+    img{width: 90%;}
+  }
+  .textt{
+    h2{padding-top: 90px;color: rgb(47, 9, 113);font-size: 30px;font-family: 'black';}
+    p{color: rgb(47, 9, 113);font-size: 17px;font-family: 'light';margin-top: 10px;line-height: 19px;margin-left: -1px;}
+    .signature{display: flex;flex-direction: row; margin-left: 40%;
+    img{width: 60%;position: relative;margin-left: 30px;}
+    h3{color: rgb(47, 9, 113);font-size: 30px;font-family: 'black';margin-top: 80px;}
+    hr{background-color: rgba(192, 191, 191, 0.018);height: 2px;width: 260px;position: absolute;margin-top: 120px;margin-left: 90px;}
+    }
+  }
+
+
 
 }
 

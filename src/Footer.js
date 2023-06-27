@@ -79,7 +79,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="col-md-7 right">
-                        <p>Copyright & 2023 Bakers Inn. All rights reserved. Site by  <span> Lovemore Mupini </span></p>
+                        <p>Copyright & 2023 Bakers Inn. All rights reserved. Site by  <span> <a href="/">Lovemore Mupini</a> </span></p>
                     </div>
                 </div>
             </div>

@@ -77,17 +77,19 @@ table {
 
 
  
-  .home{
+  .homey{
     background-image: url('about us header.png');
     position: relative;
-    margin-left: 30px;
+    margin-top: 40px;
+    margin-left: 7px;
     margin-right: 30px;
     border-radius: 10px;
     display: flex;
     height: 600px;
+    width: 100%;
   }
 
-  .home h2{
+  .homey h2{
     position: absolute;
     font-family: 'black';
     margin-left: 20px;
@@ -108,20 +110,20 @@ table {
   .about-overlay{ bottom: 0; left: 0; position: absolute;  width: 100%; height: 164px; background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%); transform: matrix(1, 0, 0, -1, 0, 0); border-radius: 7px;}
 
   .mission{
-    display: flex;  background-color: rgb(247, 246, 231); margin-top: 80px; height: 400px; border-radius: 5px; align-items: center; justify-content: center;
+    display: flex; flex-direction: column; background-color: rgb(247, 246, 231); margin-top: 80px; height: 400px; border-radius: 5px; align-items: center; justify-content: center; margin-left: 50px;
     .our-mission{display: flex;flex-direction: row; 
     img{width: 23%;height: 38%;}
     h2{
       font-family: 'black';
       margin-left: 10px;
-      margin-top: -70px;
-      font-size: 40px;
+      margin-top: 20px;
+      font-size: 30px;
       color: rgb(47, 9, 113);
       top: 50%;}
       p{margin-left: 10px;
         margin-top: 0px;
         line-height: 25px;
-        font-size: 18px;
+        font-size: 15px;
         font-family: 'light';
         color: rgb(39, 14, 86);}
   }
@@ -131,21 +133,21 @@ table {
     h2{
       font-family: 'black';
       margin-left: 10px;
-      margin-top: -70px;
-      font-size: 40px;
+      margin-top: 20px;
+      font-size: 30px;
       color: rgb(47, 9, 113);
       top: 85%;}
       p{margin-left: 10px;
         margin-top: 0px;
         line-height: 25px;
-        font-size: 18px;
+        font-size: 15px;
         font-family: 'light';
         color: rgb(39, 14, 86);}
   }
   }
 
   .values{
-    background-color: rgb(248, 248, 248); margin-top: 90px;
+    background-color: rgb(248, 248, 248); margin-top: 90px; margin-left: 20px;
     h2{text-align: center;padding-top: 70px;color: rgb(47, 9, 113);font-size: 40px;font-family: 'black';}
     .first-row{
       display: flex; flex-direction: column; text-align: center; padding: -20px;
@@ -161,10 +163,10 @@ table {
   .promise{
     margin-top: 20px;
   }
-  .imagee{margin-left: 20px;
+  .imagee{margin-left: 15px;
     img{width: 100%;}
   }
-  .textt{
+  .textt{display: flex; flex-direction: column; text-align: center;
     h2{padding-top: 90px;color: rgb(47, 9, 113);font-size: 30px;font-family: 'black';}
     p{color: rgb(47, 9, 113);font-size: 17px;font-family: 'light';margin-top: 10px;line-height: 19px;margin-left: -1px;}
     .signature{display: flex;flex-direction: row; margin-left: 0%;
@@ -205,7 +207,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
 
-  .home{
+  .homey{
     background-image: url('about us header.png');
     position: relative;
     margin-left: 30px;
@@ -215,7 +217,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     height: 600px;
   }
 
-  .home h2{
+  .homey h2{
     position: absolute;
     font-family: 'black';
     margin-left: 50px;
@@ -288,7 +290,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   .promise{
     margin-top: 20px;
   }
-  .imagee{
+  .imagee{width: 48%;
     img{width: 100%;}
   }
   .textt{
@@ -308,9 +310,10 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
 
-  .home{
+  .homey{
     background-image: url('about us header.png');
     position: relative;
+    margin-top: 30px;
     margin-left: 30px;
     margin-right: 30px;
     border-radius: 10px;
@@ -318,7 +321,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     height: 600px;
   }
 
-  .home h2{
+  .homey h2{
     position: absolute;
     font-family: 'black';
     margin-left: 50px;
@@ -391,19 +394,161 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   .promise{
     margin-top: 20px;
   }
-  .imagee{
+  .imagee{ width: 50%; margin-top: 30px;
     img{width: 90%;}
   }
-  .textt{
+  .textt{width: 45%; display: flex; flex-direction: column;
     h2{padding-top: 90px;color: rgb(47, 9, 113);font-size: 30px;font-family: 'black';}
-    p{color: rgb(47, 9, 113);font-size: 17px;font-family: 'light';margin-top: 10px;line-height: 19px;margin-left: -1px;}
-    .signature{display: flex;flex-direction: row; margin-left: 40%;
+    p{color: rgb(47, 9, 113);font-size: 15px;font-family: 'light';margin-top: 10px;line-height: 16px;margin-left: -1px;}
+    .signature{display: flex;flex-direction: row; margin-left: 40%; margin-top: -20px;
     img{width: 60%;position: relative;margin-left: 30px;}
     h3{color: rgb(47, 9, 113);font-size: 30px;font-family: 'black';margin-top: 80px;}
     hr{background-color: rgba(192, 191, 191, 0.018);height: 2px;width: 260px;position: absolute;margin-top: 120px;margin-left: 90px;}
     }
   }
 
+
+  .footer{
+    background-color: rgb(45, 1, 112);
+    margin-top: 80px;
+  }
+  
+  .first-line{
+    display: block;
+    height: 1.5px;
+    background-color: white;
+    margin-top: 143px;
+    width: 100%;
+  }
+  .footer-logo img{
+    width: 60%;
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  
+  .feed h5{
+    display: flex;
+    font-size: 25px;
+    font-family: 'black';
+    color: rgb(249, 249, 249);
+    justify-content: flex-start;
+    margin-top: 70px;
+  }
+  .imagz img{
+    width: 33%;
+    padding: 10px;
+  }
+  .links{
+    display: flex;
+    margin-top: 30px;
+    justify-content: flex-start;
+  }
+  .links img{
+    width: 80%;
+    padding: 3px;
+  }
+  
+  .lotoma{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-top: 70px;
+  }
+  .lotoma h5{
+    display: flex;
+    font-size: 25px;
+    font-family: 'black';
+    color: rgb(249, 249, 249);
+    justify-content: flex-start;
+    margin-top: 70px;
+  }
+  .lotoma p{
+    display: flex;
+    font-size: 20px;
+    font-family: 'light';
+    color: rgb(255, 255, 255);
+    justify-content: flex-start;
+    /* margin-top: -60px; */
+    line-height: 10px;
+  }
+  .phone{
+    display: flex;
+    line-height: 15px;
+  }
+  .marketing{
+    display: flex;
+  }
+  
+  .phone img{
+    width: 5%;
+    height: 6%;
+    margin-right: 16px;
+  }
+  .marketing img{
+    width: 7%;
+    height: 5%;
+    margin-right: 16px;
+    margin-top: 5px;
+  }
+  .phone p{
+   margin-top: 5px;
+   margin-left: 20px;
+  }
+  .marketing p{
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+  .intouch p{
+    margin-left: 2px;
+    
+  }
+  .intouch{
+    margin-left: 50px;
+    .middle{margin-left: 30px;}
+  }
+  .location{
+    margin-left: 120px;
+  }
+  .sitemap{
+    margin-left: 50px;
+  }
+  .second-line{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    margin-top: 15px;
+  }
+  .innscor{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: flex-start;
+  }
+  .innscor p{
+    display: flex;
+    font-size: 20px;
+    font-family: 'light';
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+  }
+  .innscor img{
+    width: 16%;
+    height: 12%;
+    margin-left: 5px;
+    margin-top: 7px;
+  }
+  .right p{
+    display: flex;
+    font-size: 18px;
+    font-family: 'light';
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    margin-left: 110px;
+  }
+  .right span{
+    color: rgb(218, 180, 89);
+    margin-left: 5px; font-family: 'light';
+  }
 
 
 }

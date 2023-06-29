@@ -174,7 +174,7 @@ const TabBoot = () => {
 
   <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">    <div className="sandwiches">
             <div className="sandwich-one">
-                <img src="./imgs/shwarma.png" alt="" />
+                <img src="./imgs/shortbread.png" alt="" />
                 <h5>{secondHead}</h5>
                 <div className="para-pic">
                     <div className="para">
@@ -280,7 +280,7 @@ const TabBoot = () => {
                 </div>
             </div>
             <div className="sandwich-two">
-                <img src="./imgs/shwarma.png" alt="" />
+                <img src="./imgs/shortbread.png" alt="" />
                 <h5>{secondHead}</h5>
                 <div className="para-pic">
                     <div className="para">
@@ -388,7 +388,7 @@ const TabBoot = () => {
                 </div>
             </div>
             <div className="sandwich-three">
-                <img src="./imgs/shwarma.png" alt="" />
+                <img src="./imgs/shortbread.png" alt="" />
                 <h5>{secondHead}</h5>
                 <div className="para-pic">
                     <div className="para">
@@ -502,7 +502,7 @@ const TabBoot = () => {
 
   <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">    <div className="sandwiches">
             <div className="sandwich-one">
-                <img src="./imgs/shwarma.png" alt="" />
+                <img src="./imgs/salmon.png" alt="" />
                 <h5>{thirdHead}</h5>
                 <div className="para-pic">
                     <div className="para">
@@ -610,7 +610,7 @@ const TabBoot = () => {
                 </div>
             </div>
             <div className="sandwich-two">
-                <img src="./imgs/shwarma.png" alt="" />
+                <img src="./imgs/salmon.png" alt="" />
                 <h5>{thirdHead}</h5>
                 <div className="para-pic">
                     <div className="para">
@@ -713,7 +713,7 @@ const TabBoot = () => {
                 </div>
             </div>
             <div className="sandwich-three">
-                <img src="./imgs/shwarma.png" alt="" />
+                <img src="./imgs/salmon.png" alt="" />
                 <h5>{thirdHead}</h5>
                 <div className="para-pic">
                     <div className="para">

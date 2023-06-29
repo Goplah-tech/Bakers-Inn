@@ -132,7 +132,7 @@ $gold : #b2904c;
   margin-left: 30px;
   line-height: 25px;
   font-size: 21px;
-  margin-top: -20px;
+  margin-top: 20px;
 }
 .text button{
   height: 55px;
@@ -147,7 +147,7 @@ $gold : #b2904c;
 }
 .image-first img{
  width: 100%;
- margin-top: 50px;
+ margin-top: 20px;
  margin-left: -20px;
 }
 .image-two{
@@ -160,18 +160,19 @@ $gold : #b2904c;
   flex-direction: column;
 }
 .first h1{
+  text-align: center;
   font-family: 'black';
-  margin-left: 30px;
+  margin-left: 0px;
   font-size: 35px;
   color: rgb(51, 17, 115);
   margin-top: 120px;
 }
-.second{text-align: start;}
+.second{text-align: center;}
 .second p{
   font-family: 'light';
   color: rgb(51, 17, 115);
-  margin-left: 30px;
-  margin-top: 40px;
+  margin-left: 0px;
+  margin-top: 20px;
   line-height: 25px;
   font-size: 18px;
 }
@@ -181,7 +182,7 @@ $gold : #b2904c;
   border-radius: 5px;
   border: 0;
   background-color: rgb(182, 145, 61);
-  margin-left: 30px;
+  margin-left: 0px;
   color: white;
   font-size: 20px;
   font-family: 'black';
@@ -313,16 +314,18 @@ $gold : #b2904c;
   text-align: start;
 }
 .factory-tour h2{
+  text-align: center;
   margin-top: 50px;
   margin-bottom: 30px;
-  margin-right: 20px;
+  margin-right: 0px;
   color: rgb(39, 14, 86);
   font-size: 35px;
   font-family: 'black';
 }
 .factory-tour p{
-  margin-left: 20px;
-  margin-right: 70px;
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
   margin-top: -20px;
   line-height: 25px;
   font-size: 18px;
@@ -343,20 +346,20 @@ $gold : #b2904c;
   margin-left: 20%;
 }
 .factory{
-  position:absolute ; background-color: white; box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
-  .top-button{margin-left: 95%; margin-bottom: -370px;
-    button{height: 45px;width: 45px;background-color: rgb(39, 14, 86);border-radius: 30px;font-size: 25px;font-family: 'black';}
+  position:absolute ; background-color: white; box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25); display: flex; flex-direction: column; 
+  .top-button{margin-left: 90%; margin-bottom: -370px;
+    button{height: 35px;width: 35px;background-color: rgb(39, 14, 86);border-radius: 30px;font-size: 25px;font-family: 'black';}
   }
-  h2{text-align: center;}
+  h2{text-align: center;margin-top: 290px;}
   .inputs{
-    display: flex; flex-direction: row;
-    input{width: 600px;height: 70px;border: 0;padding: 20px;margin: 10px;font-family: 'black';font-size: 20px;background-color: rgb(247, 246, 231);border-radius: 2px;}
+    display: flex; flex-direction: column;
+    input{width: 330px;height: 50px;border: 0;padding: 20px;margin: 10px;font-family: 'black';font-size: 20px;background-color: rgb(247, 246, 231);border-radius: 2px;}
   }
   .last-input{
-    input{width: 1220px;height: 70px;border: 0;padding: 20px;margin: 10px;font-family: 'black';font-size: 20px;background-color: rgb(247, 246, 231);border-radius: 2px;}
+    input{width: 330px;height: 50px;border: 0;padding: 20px;margin: 10px;font-family: 'black';font-size: 20px;background-color: rgb(247, 246, 231);border-radius: 2px;}
   }
-  .textng{display: flex;flex-direction: row; margin-left: 26%; margin-top: 40px;
-  p{text-align: center; margin-bottom: 30px;
+  .textng{display: flex;flex-direction: column ; margin-left: 0%; margin-top: 40px;
+  p{text-align: start; margin-bottom: 30px;
   a{font-family: 'black';color: rgb(45, 1, 112);}
   }
   }
@@ -393,7 +396,7 @@ $gold : #b2904c;
 }
 .donation img{
   width: 100%;
-  margin-top: 40px;
+  margin-top: 0px;
   margin-bottom: 40px;
   margin-left: 0.5%;
 }
@@ -412,15 +415,17 @@ $gold : #b2904c;
   
 }
 .donation h2{
+  text-align: center;
   margin-top: 0px;
-  margin-left: 20px;
+  margin-left: 0px;
   margin-bottom: 30px;
   color: rgb(39, 14, 86);
   font-size: 35px;
   font-family: 'black';
 }
 .donation p{
-  margin-left: 20px;
+  text-align: center;
+  margin-left: 0px;
   margin-top: -20px;
   line-height: 25px;
   font-size: 18px;
@@ -474,17 +479,19 @@ $gold : #b2904c;
   padding: 0px;
 }
 .imag-one{
-  width: 120px;
+  text-align: center; margin-top: 20px;
+  h5{font-family: 'dumb';color: #ffffff;font-size: 50px;text-align: center;}
 }
 .imag-two{
   width: 170px;
 }
 .text-one p{
+  text-align: center;
   color: rgb(250, 250, 250);
   font-size: 15px;
   line-height: 25px;
   margin-top: 10px;
-  margin-left: 10px;
+  margin-left: 0px;
 }
 .text-one button{
   height: 60px;
@@ -503,7 +510,7 @@ $gold : #b2904c;
 .recipes h2{
   display: flex;
   justify-content: center;
-  margin-top: 170px;
+  margin-top: 70px;
   /* margin-left: -50px; */
   color: $blue;
   font-size: 35px;
@@ -595,47 +602,133 @@ $gold : #b2904c;
  }
  .sandwich-one h5{
   display: flex;
-  font-size: 30px;
+  font-size: 25px;
   font-family: 'black';
   color: rgb(39, 14, 86);
   justify-content: flex-start;
   margin-top: 50px;
+  margin-bottom: 40px;
  }
  .sandwich-two h5{
   display: flex;
-  font-size: 30px;
+  font-size: 25px;
   font-family: 'black';
   color: rgb(39, 14, 86);
   justify-content: flex-start;
   margin-top: 50px;
+  margin-bottom: 40px;
  }
 
  .sandwich-three h5{
   display: flex;
-  font-size: 30px;
+  font-size: 25px;
   font-family: 'black';
   color: rgb(39, 14, 86);
   justify-content: flex-start;
   margin-top: 50px;
+  margin-bottom: 40px;
  }
  .para-pic{
   display: flex;
   flex-direction: row;
  }
  .pic{
-  width: 15%;
-  padding-left: 165px;
-  margin-top: -35px;
+  width: 40%;
+  padding-left: 65px;
+  margin-top: 0px;
+  border-radius: 30px;
+  .btn-primary{
+    width: 70%; height: 30px; background-color: $gold; border-radius: 30px;position: relative; border: 0;
+    img{position: absolute;top: 0;left: 0;width: 100%;}
+   }
  }
- .pic img{
-  width: 100%;
+ .tab-content{margin-top: 20px;}
+ .nav-tabs{display: flex; text-align: center; margin-left: 0px;
+  button{color: $blue;border: 0;text-decoration: none;border-bottom: 2px solid $gold; font-size: 18px;font-family: 'heavy';}
+  
  }
+ 
+
+
+ .bakerRecipe{
+  h2{display: flex;justify-content: center;margin-top: 70px;color: $blue;font-size: 45px;font-family: 'black';}
+}
+
+
+.modal.first{
+  .modal-content{
+    button{margin-left: 87%;margin-top: 10px;color: white;}
+    .modal-body{
+      .picc{
+        img{width: 100%;}
+      }
+      h2{font-family: 'black';font-size: 35px;color: $blue;margin-top: 50px;text-align: center;}
+    .inf{display: flex; 
+      .one{img{width: 30%;}
+          h4{margin-left: 60px;margin-top: -15px;font-family: 'heavy';color: $blue;font-size: 20px;}
+        }
+        .two{margin-left: 50px;
+          img{width: 30%;}
+          h4{margin-left: 70px;margin-top: -15px;font-family: 'heavy';color: $blue;font-size: 20px;}
+        }
+    }
+    .ingr{ margin-top: 30px; display: flex;
+      h3{font-family: 'black';color: $blue;font-size: 30px;}
+      .dash{width: 450px;height: 2px;background-color: $gold;margin-top: 20px;margin-left: 20px;}
+      .ball{width: 60px;height: 20px;border-radius: 30px;background-color: $gold;margin-top: 10px;margin-left: -5px;}
+    }
+    .measurements{display: flex; flex-direction: column;
+        .olive{margin-top: 10px;
+          p{font-family: 'light';font-size: 15px;color: $blue;line-height: 8px;}
+        }
+        .salt{margin-top: 10px; margin-left: 0px;
+          p{font-family: 'light';font-size: 15px;color: $blue;line-height: 8px;}
+        }
+    }
+    .piccs{margin-left: -5px; margin-top: 20px;
+      img{width: 45.8%;border-radius: 7px;margin: 5px;}
+    }
+    .steps{display: flex; flex-direction: column; margin-top: -20px;
+          h5{font-family: 'black';font-size: 25px;color: $blue;}
+          p{font-family: 'light';font-size: 16px;color: $blue;line-height: 20px;text-align: start;margin-top: -30px;}  
+        }
+        .step{
+          h5{font-family: 'black';font-size: 25px;color: $blue;margin-top: 35px;}
+          p{font-family: 'light';font-size: 16px;color: $blue;line-height: 20px;text-align: start;margin-top: -30px;}
+        }
+    }
+  }
+}
+
+
+
+
+
+.modal{
+  .btn-primary:hover{
+    background-color: $gold!important;}
+  
+  .modal-dialog{
+    
+    button{background-color: $blue;width: 25px;height: 25px;border-radius: 20px;margin-left: 88%;}
+    .modal-body{
+      h2{text-align: center;margin-top: -50px;font-size: 38px;}
+      p{font-size: 15px;text-align: center;}
+      .inputs{
+        display: flex; flex-direction: column;
+        input{width: 340px;height: 55px;border: 0;padding: 20px;margin: 10px;font-family: 'black';font-size: 15px;background-color: rgb(247, 246, 231);border-radius: 2px;margin-left: 0px;}
+      }
+      .proceed{width: 340px; height: 50px; background-color: $gold; margin-left: 0px; border-radius: 2px;font-family: 'heavy';font-size: 18px;}
+    }
+  }
+}
+
 
 
  .sandwich-one p{
   display: flex;
   font-size: 15px;
-  font-family: 'black';
+  font-family: 'light';
   color: rgb(39, 14, 86);
   justify-content: flex-start;
   /* margin-top: -60px; */
@@ -650,7 +743,7 @@ $gold : #b2904c;
  .sandwich-two p{
   display: flex;
   font-size: 15px;
-  font-family: 'black';
+  font-family: 'light';
   color: rgb(39, 14, 86);
   justify-content: flex-start;
   /* margin-top: -60px; */
@@ -664,7 +757,7 @@ $gold : #b2904c;
  .sandwich-three p{
   display: flex;
   font-size: 15px;
-  font-family: 'black';
+  font-family: 'light';
   color: rgb(39, 14, 86);
   justify-content: flex-start;
   /* margin-top: -60px; */
@@ -2006,8 +2099,12 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   color: rgb(39, 14, 86);
   font-size: 45px;
   font-family: 'black';
+  display: flex;
+  text-align: start;
 }
 .factory-tour p{
+  display: flex;
+  text-align: start;
   margin-left: 0px;
   margin-right: 70px;
   margin-top: -20px;
@@ -2098,6 +2195,8 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   
 }
 .donation h2{
+   display: flex;
+   text-align: start;
   margin-top: 250px;
   margin-left: 50px;
   margin-bottom: 30px;
@@ -2106,6 +2205,8 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   font-family: 'black';
 }
 .donation p{
+  display: flex;
+    text-align: start;
   margin-left: 50px;
   margin-top: -20px;
   line-height: 25px;
@@ -2248,7 +2349,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   width: 32%;
   padding: 20px;
   margin-right: 30px;
-  height: 390px;
+  height: 420px;
   margin-top: 30px;
 }
 .sandwich-two{
@@ -2258,7 +2359,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   width: 32%;
   padding: 20px;
   margin-right: 30px;
-  height: 390px;
+  height: 420px;
 }
 .sandwich-three{
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.409);
@@ -2266,7 +2367,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   background-color: rgb(250, 250, 250);
   width: 32%;
   padding: 20px;
-  height: 390px;
+  height: 420px;
 }
 .sandwich-one img{
  width: 100%;
@@ -2314,8 +2415,8 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   width: 60%;
   padding-left: 165px;
   margin-top: -35px;
-  .btn{background-color: $gold!important;border: 0;width: 60px;height: 60px;border-radius: 40px;
-    img{width: 100%;margin-top: -35px;}
+  .btn-primary{background-color: $gold!important;border: 0;width: 60px;height: 60px;border-radius: 40px;
+    img{width: 100%;margin-top: 0px;}
         }
         .btn:hover{color: $gold;}
       }

@@ -59,8 +59,8 @@ $light : rgb(149, 136, 184);
 $gold : #b2904c;
 
 
-.first{
-    .text{width: 100%;
+.first{margin-top: 40px;
+    .text{width: 100%; margin-top: 70px;
         h2{font-family: 'black';margin-left: 30px;margin-top: 0px;font-size: 35px;color: rgb(47, 9, 113);line-height: 45px;}
         p{margin-left: 30px;margin-top: 0px;line-height: 20px;font-size: 17px;font-family: 'heavy';color: rgb(39, 14, 86);}
         .bakers{display: flex;
@@ -83,7 +83,7 @@ $gold : #b2904c;
                 img{width: 100%;}
                 }
         }
-        .image-twoo{width: 80%;margin-left: -5%;margin-top: 30px;position: relative;
+        .image-twoo{width: 80%;margin-left: 10%;margin-top: 30px;position: relative;
             .gif{position: absolute; top: 15%; margin-left: 0%;
                 img{width: 100%;}
                 }
@@ -93,7 +93,7 @@ $gold : #b2904c;
                 img{width: 100%;}
                 }
         }
-        .image-fourr{width: 80%;margin-left: -5%;margin-top: 20px;position: relative;
+        .image-fourr{width: 80%;margin-left: 10%;margin-top: 20px;position: relative;
             .gif{position: absolute; top: 15%; margin-left: 0%;
                 img{width: 100%;}
                 }
@@ -178,7 +178,42 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 @media (min-width: 992px) { 
 
 
-.receipes{margin-top: 40px;}
+// .receipes{margin-top: 40px;}
+// .first{
+//     .text{width: 80%;
+//         h2{font-family: 'black';margin-left: 30px;margin-top: 100px;font-size: 55px;color: rgb(47, 9, 113);line-height: 65px;}
+//         p{margin-left: 30px;margin-top: 0px;line-height: 10px;font-size: 17px;font-family: 'black';color: rgb(39, 14, 86);}
+//         .bakers{display: flex;
+//             .image{width: 8%; margin-left: 30px; margin-top: -30px;
+//                 img{width: 80%;border-radius: 70rem;}
+//             }
+//             .taxt{ margin-top: -10px; margin-left: -40px;
+//                 h5{color: $gold;font-size: 23px;}
+//             }
+//         }
+//     }
+
+// }
+// .second{
+//     .pictures{
+//         display: flex;flex-direction: row;flex-wrap: wrap;
+//         img{width: 100%;}
+//         .image-one{position: relative;width: 45%;}
+//         .image-two{width: 44%;margin-left: 0.5%;margin-top: 30px;position: relative;}
+//         .image-three{width: 44%;margin-top: -1.5%;position: relative;}
+//         .image-four{width: 44%;margin-left: 1.5%;margin-top: 15px;position: relative;}
+//         .gif{position: absolute; top: 25%; margin-left: 70px;
+//             img{width: 50%;}
+//             }
+//         .overlay{position: absolute;background-color: rgba(0, 0, 0, 0.431);height: 100%;width: 100%;top: 0%;border-radius: 5px;}
+//     }
+// }
+
+
+
+
+
+
 .first{
     .text{width: 80%;
         h2{font-family: 'black';margin-left: 30px;margin-top: 100px;font-size: 55px;color: rgb(47, 9, 113);line-height: 65px;}
@@ -198,18 +233,44 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     .pictures{
         display: flex;flex-direction: row;flex-wrap: wrap;
         img{width: 100%;}
-        .image-one{position: relative;width: 45%;}
-        .image-two{width: 44%;margin-left: 0.5%;margin-top: 30px;position: relative;}
-        .image-three{width: 44%;margin-top: -1.5%;position: relative;}
-        .image-four{width: 44%;margin-left: 1.5%;margin-top: 15px;position: relative;}
-        .gif{position: absolute; top: 25%; margin-left: 70px;
+        .image-onee{position: relative;width: 80%;margin-left: 10%;
+            .gif{position: absolute; top: 15%; margin-left: 0%;
+                img{width: 100%;}
+                }
+        }
+        .image-twoo{width: 80%;margin-left: -5%;margin-top: 30px;position: relative;
+            .gif{position: absolute; top: 15%; margin-left: 0%;
+                img{width: 100%;}
+                }
+        }
+        .image-thre{width: 80%;margin-top: 2.5%;position: relative;margin-left: 10%;
+            .gif{position: absolute; top: 15%; margin-left: 0%;
+                img{width: 100%;}
+                }
+        }
+        .image-fourr{width: 80%;margin-left: -5%;margin-top: 20px;position: relative;
+            .gif{position: absolute; top: 15%; margin-left: 0%;
+                img{width: 100%;}
+                }
+        }
+        .gif{position: absolute; top: 0%; margin-left: 0px;
             img{width: 50%;}
             }
         .overlay{position: absolute;background-color: rgba(0, 0, 0, 0.431);height: 100%;width: 100%;top: 0%;border-radius: 5px;}
     }
+    .hidden{
+        visibility: hidden;
+    }
+    .show{
+        visibility: visible;
+    }
 }
 
 }
+
+
+
+
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  

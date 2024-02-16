@@ -72,8 +72,9 @@ $gold : #b2904c;
       .offcanvas{ background-color: $gold;
         .btn-close{background-color: #ffffff;width: 30px;border: 2px solid $blue;height: 30px;margin-left: 85%;}
         .navbar-nav{margin-left: 20px;
-          a{color: $blue;font-family: 'heavy';font-size: 25px;}
+          a{color: $blue;font-family: 'heavy';font-size: 25px;text-align: center;}
         }
+        button{border: 2px solid white;margin-left: 75px;}
       }
       .App-links{
         display: flex;flex-direction: column; margin-top: 10px; display: none;
@@ -1928,6 +1929,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   color: white;
   font-size: 20px;
   font-family: 'black';
+  a{color: white;text-decoration: none;}
 }
 .image-first { width: 2789px;
   img{width: 100%;margin-top: 53px;margin-left: 30px;}
@@ -1939,6 +1941,9 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 .about-text{
   display: flex;
   flex-direction: row;
+  button{
+    a{text-decoration: none;color: white;}
+  }
 }
 .first h1{
   font-family: 'black';
@@ -2129,9 +2134,9 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 .factory{
   position:absolute ; background-color: white; box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
   .top-button{margin-left: 95%; margin-bottom: -370px;
-    button{height: 45px;width: 45px;background-color: rgb(39, 14, 86);border-radius: 30px;font-size: 25px;font-family: 'black';}
+    button{height: 45px;width: 45px;background-color: rgb(39, 14, 86);border-radius: 30px;font-size: 25px;font-family: 'black';  z-index: 9999;}
   }
-  h2{text-align: center;}
+  h2{text-align: center; margin-right: 20px;width: 45%;}
   .inputs{
     display: flex; flex-direction: row;
     input{width: 600px;height: 70px;border: 0;padding: 20px;margin: 10px;font-family: 'black';font-size: 20px;background-color: rgb(247, 246, 231);border-radius: 2px;}
@@ -2483,14 +2488,28 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     
     button{background-color: $blue;width: 25px;height: 25px;border-radius: 20px;margin-left: 96%;}
     .modal-body{
-      h2{text-align: center;margin-top: -120px;font-size: 38px;}
-      p{font-size: 15px;text-align: center;}
+      h2{text-align: center;margin-top: -120px;font-size: 38px;margin-left: 30%;}
+      p{font-size: 15px;text-align: center;margin-left: 10%;}
       .inputs{
         display: flex; flex-direction: row;
         input{width: 500px;height: 55px;border: 0;padding: 20px;margin: 10px;font-family: 'black';font-size: 15px;background-color: rgb(247, 246, 231);border-radius: 2px;margin-left: 30px;}
+        .dropdown{
+          button{width: 500px;height: 55px;border: 0;padding: 20px;margin: 10px;font-family: 'black';font-size: 15px;background-color: rgb(247, 246, 231);border-radius: 2px;margin-left: 30px;color: rgb(124, 123, 115);text-align: start;}
+        }
       }
-      .proceed{width: 1040px; height: 50px; background-color: $gold; margin-left: 30px; border-radius: 2px;font-family: 'heavy';font-size: 18px;}
+      .proceed-button{width: 1040px; height: 50px; background-color: $gold; margin-left: 30px; border-radius: 2px;font-family: 'heavy';font-size: 18px;}
     }
+  }
+}
+.modal{
+  .modal-content{
+      .proceed{
+        h3{font-family: 'black';font-size: 35px;color: $blue;margin-top: -75px;text-align: center;}
+        .inputs{display: flex;flex-direction: column;
+          input{width: 1040px;height: 100px;border: 0;padding: 20px -20px 20px 20px;margin: 10px;font-family: 'black';font-size: 15px;background-color: rgb(247, 246, 231);border-radius: 2px;margin-left: 30px;}
+        }
+        button{width: 1040px; height: 50px; background-color: $gold; margin-left: 30px; border-radius: 2px;font-family: 'heavy';font-size: 18px;}
+      }
   }
 }
 

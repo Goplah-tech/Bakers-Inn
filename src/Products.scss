@@ -96,8 +96,8 @@ $gold : #b2904c;
         .fourth{
             img{margin-left: 10%;}
         }
-        .first{
-            img{margin-left: 10%;}
+        .first{margin-top: -1px;
+            img{margin-left: 11%;}
         }
         
     }
@@ -106,6 +106,34 @@ $gold : #b2904c;
         button{background-color: #ffffff;color: $blue;}
     }
 }
+.meat{
+    .cards{display: flex;flex-direction: column; flex-wrap: nowrap; margin-left: 20px; text-align: center;
+        .card{width: 20rem;background-color: rgb(247, 246, 231);border: 0;height: 500px;margin-right: 1.5rem; box-shadow: 3px 3px 3px 5px rgba(0, 0, 0, 0.117); margin-top: 50px;
+            img{width: 80%;text-align: center;margin-left: 35px;}
+            h5{font-family: 'black';margin-left: 0px;margin-top: 10px;font-size: 30px;color: rgb(47, 9, 113);top: 85%;}
+            p{margin-left: 20px; margin-right: 20px; margin-top: 0px;line-height: 20px;font-size: 16px;font-family: 'light';color: rgb(39, 14, 86);}
+        }
+    }
+}
+.scones{
+    .cards{display: flex;flex-direction: column; flex-wrap: nowrap; margin-left: 20px; text-align: center;
+        .card{width: 20rem;background-color: rgb(247, 246, 231);border: 0;height: 450px;margin-right: 1.5rem; box-shadow: 3px 3px 3px 5px rgba(0, 0, 0, 0.117); margin-top: 50px;
+            img{width: 80%;text-align: center;margin-left: 35px;}
+            h5{font-family: 'black';margin-left: 0px;margin-top: 10px;font-size: 30px;color: rgb(47, 9, 113);top: 85%;}
+            p{margin-left: 20px; margin-right: 20px; margin-top: 0px;line-height: 20px;font-size: 16px;font-family: 'light';color: rgb(39, 14, 86);}
+        }
+    }
+}
+.donuts{
+    .cards{display: flex;flex-direction: column; flex-wrap: nowrap; margin-left: 20px; text-align: center;
+        .card{width: 20rem;background-color: rgb(247, 246, 231);border: 0;height: 450px;margin-right: 1.5rem; box-shadow: 3px 3px 3px 5px rgba(0, 0, 0, 0.117); margin-top: 50px;
+            img{width: 80%;text-align: center;margin-left: 35px;}
+            h5{font-family: 'black';margin-left: 0px;margin-top: 20px;font-size: 30px;color: rgb(47, 9, 113);top: 85%;}
+            p{margin-left: 20px; margin-right: 20px; margin-top: 0px;line-height: 20px;font-size: 16px;font-family: 'light';color: rgb(39, 14, 86);}
+        }
+    }
+}
+
 
 
 
@@ -210,7 +238,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         img{width: 80%;margin-top: -50px;}
         .card{width: 25rem;background-color: rgb(247, 246, 231);border: 0;height: 550px;margin-right: 1.5rem; box-shadow: 3px 3px 3px 5px rgba(0, 0, 0, 0.117); margin-top: -20px;
             h5{ font-family: 'black';margin-left: 0px;margin-top: 0px;font-size: 30px;color: rgb(47, 9, 113);top: 85%;}
-            p{margin-left: 0px;margin-top: 0px;line-height: 20px;font-size: 16px;font-family: 'light';color: rgb(39, 14, 86);}
+            p{margin-left: 10px; margin-right: 10px; margin-top: 0px;line-height: 20px;font-size: 16px;font-family: 'light';color: rgb(39, 14, 86);}
         }
         .seconds{
             img{width: 55%;margin-left: 25%;margin-bottom: 0px;}
@@ -226,37 +254,36 @@ No media query since this is the default in Bootstrap because it is "mobile firs
             img{margin-left: 10%;}
         }
         
-    }
-
-    .meat{
-        text-align: center; display: flex; flex-direction: row; margin-top: 70px; flex-wrap: nowrap; width: 100%;
-        img{width: 70%;margin-top: -50px;}
-        .card{width: 20rem;background-color: rgb(247, 246, 231);border: 0;height: 500px;margin-right: 1.5rem; box-shadow: 3px 3px 3px 5px rgba(0, 0, 0, 0.117);
-            h5{ font-family: 'black';margin-left: 0px;margin-top: -30px;font-size: 20px;color: rgb(47, 9, 113);top: 85%;}
-            p{margin-left: 0px;margin-top: 0px;line-height: 20px;font-size: 16px;font-family: 'light';color: rgb(39, 14, 86);}
-        }
-        .seconds{
-            img{width: 55%;margin-left: 27%;margin-bottom: 30px;}
-           
-        }
-        .third{
-            img{width: 55%;margin-left: 25%;margin-bottom: 30px;}
-        }
-        .fourth{
-            img{margin-left: 10%;}
-        }
-        .first{
-            img{margin-left: 10%;}
-        }
-        
-    }
-    
-    .scones{
-        .card{
-            background-color: rgb(247, 246, 231); width: 25rem;border: 0; height: 500px; margin-right: 1.5rem;
+    }    
+}
+.meat{
+    .cards{display: flex;flex-direction: row; flex-wrap: nowrap; margin-left: 20px; text-align: center;
+        .card{width: 30rem;background-color: rgb(247, 246, 231);border: 0;height: 500px;margin-right: 1.5rem; box-shadow: 3px 3px 3px 5px rgba(0, 0, 0, 0.117); margin-top: 50px;
+            img{width: 80%;text-align: center;margin-left: 35px;}
+            h5{font-family: 'black';margin-left: 0px;margin-top: 10px;font-size: 30px;color: rgb(47, 9, 113);top: 85%;}
+            p{margin-left: 20px; margin-right: 20px; margin-top: 0px;line-height: 20px;font-size: 16px;font-family: 'light';color: rgb(39, 14, 86);}
         }
     }
 }
+.scones{
+    .cards{display: flex;flex-direction: row; flex-wrap: nowrap; margin-left: 20px; text-align: center;
+        .card{width: 30rem;background-color: rgb(247, 246, 231);border: 0;height: 450px;margin-right: 1.5rem; box-shadow: 3px 3px 3px 5px rgba(0, 0, 0, 0.117); margin-top: 50px;
+            img{width: 80%;text-align: center;margin-left: 35px;}
+            h5{font-family: 'black';margin-left: 0px;margin-top: 10px;font-size: 30px;color: rgb(47, 9, 113);top: 85%;}
+            p{margin-left: 20px; margin-right: 20px; margin-top: 0px;line-height: 20px;font-size: 16px;font-family: 'light';color: rgb(39, 14, 86);}
+        }
+    }
+}
+.donuts{
+    .cards{display: flex;flex-direction: row; flex-wrap: nowrap; margin-left: 20px; text-align: center;
+        .card{width: 30rem;background-color: rgb(247, 246, 231);border: 0;height: 450px;margin-right: 1.5rem; box-shadow: 3px 3px 3px 5px rgba(0, 0, 0, 0.117); margin-top: 50px;
+            img{width: 80%;text-align: center;margin-left: 35px;}
+            h5{font-family: 'black';margin-left: 0px;margin-top: 20px;font-size: 30px;color: rgb(47, 9, 113);top: 85%;}
+            p{margin-left: 20px; margin-right: 20px; margin-top: 0px;line-height: 20px;font-size: 16px;font-family: 'light';color: rgb(39, 14, 86);}
+        }
+    }
+}
+
 
 
 }

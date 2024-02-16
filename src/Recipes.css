@@ -1,0 +1,418 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.first {
+  margin-top: 40px;
+}
+.first .text {
+  width: 100%;
+  margin-top: 70px;
+}
+.first .text h2 {
+  font-family: "black";
+  margin-left: 30px;
+  margin-top: 0px;
+  font-size: 35px;
+  color: rgb(47, 9, 113);
+  line-height: 45px;
+}
+.first .text p {
+  margin-left: 30px;
+  margin-top: 0px;
+  line-height: 20px;
+  font-size: 17px;
+  font-family: "heavy";
+  color: rgb(39, 14, 86);
+}
+.first .text .bakers {
+  display: flex;
+}
+.first .text .bakers .imagi {
+  width: 8%;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.first .text .bakers .imagi img {
+  width: 80%;
+  border-radius: 70rem;
+}
+.first .text .bakers .taxt {
+  margin-top: -10px;
+  margin-left: -40px;
+}
+.first .text .bakers .taxt h5 {
+  color: #b2904c;
+  font-size: 23px;
+}
+
+.second .pictures {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.second .pictures img {
+  width: 100%;
+}
+.second .pictures .image-onee {
+  position: relative;
+  width: 80%;
+  margin-left: 10%;
+}
+.second .pictures .image-onee .gif {
+  position: absolute;
+  top: 15%;
+  margin-left: 0%;
+}
+.second .pictures .image-onee .gif img {
+  width: 100%;
+}
+.second .pictures .image-twoo {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 30px;
+  position: relative;
+}
+.second .pictures .image-twoo .gif {
+  position: absolute;
+  top: 15%;
+  margin-left: 0%;
+}
+.second .pictures .image-twoo .gif img {
+  width: 100%;
+}
+.second .pictures .image-thre {
+  width: 80%;
+  margin-top: 2.5%;
+  position: relative;
+  margin-left: 10%;
+}
+.second .pictures .image-thre .gif {
+  position: absolute;
+  top: 15%;
+  margin-left: 0%;
+}
+.second .pictures .image-thre .gif img {
+  width: 100%;
+}
+.second .pictures .image-fourr {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 20px;
+  position: relative;
+}
+.second .pictures .image-fourr .gif {
+  position: absolute;
+  top: 15%;
+  margin-left: 0%;
+}
+.second .pictures .image-fourr .gif img {
+  width: 100%;
+}
+.second .pictures .gif {
+  position: absolute;
+  top: 0%;
+  margin-left: 0px;
+}
+.second .pictures .gif img {
+  width: 50%;
+}
+.second .pictures .overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.431);
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  border-radius: 5px;
+}
+.second .hidden {
+  visibility: hidden;
+}
+.second .show {
+  visibility: visible;
+}
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+/* Small devices (landscape phones, 576px and up) */
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .first .text {
+    width: 80%;
+  }
+  .first .text h2 {
+    font-family: "black";
+    margin-left: 30px;
+    margin-top: 100px;
+    font-size: 55px;
+    color: rgb(47, 9, 113);
+    line-height: 65px;
+  }
+  .first .text p {
+    margin-left: 30px;
+    margin-top: 0px;
+    line-height: 10px;
+    font-size: 17px;
+    font-family: "black";
+    color: rgb(39, 14, 86);
+  }
+  .first .text .bakers {
+    display: flex;
+  }
+  .first .text .bakers .image {
+    width: 8%;
+    margin-left: 30px;
+    margin-top: -30px;
+  }
+  .first .text .bakers .image img {
+    width: 80%;
+    border-radius: 70rem;
+  }
+  .first .text .bakers .taxt {
+    margin-top: -10px;
+    margin-left: -40px;
+  }
+  .first .text .bakers .taxt h5 {
+    color: #b2904c;
+    font-size: 23px;
+  }
+  .second .pictures {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .second .pictures img {
+    width: 100%;
+  }
+  .second .pictures .image-one {
+    position: relative;
+    width: 45%;
+  }
+  .second .pictures .image-two {
+    width: 44%;
+    margin-left: 0.5%;
+    margin-top: 30px;
+    position: relative;
+  }
+  .second .pictures .image-three {
+    width: 44%;
+    margin-top: -1.5%;
+    position: relative;
+  }
+  .second .pictures .image-four {
+    width: 44%;
+    margin-left: 1.5%;
+    margin-top: 15px;
+    position: relative;
+  }
+  .second .pictures .gif {
+    position: absolute;
+    top: 25%;
+    margin-left: 70px;
+  }
+  .second .pictures .gif img {
+    width: 50%;
+  }
+  .second .pictures .overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.431);
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    border-radius: 5px;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .first .text {
+    width: 80%;
+  }
+  .first .text h2 {
+    font-family: "black";
+    margin-left: 30px;
+    margin-top: 100px;
+    font-size: 55px;
+    color: rgb(47, 9, 113);
+    line-height: 65px;
+  }
+  .first .text p {
+    margin-left: 30px;
+    margin-top: 0px;
+    line-height: 10px;
+    font-size: 17px;
+    font-family: "black";
+    color: rgb(39, 14, 86);
+  }
+  .first .text .bakers {
+    display: flex;
+  }
+  .first .text .bakers .image {
+    width: 8%;
+    margin-left: 30px;
+    margin-top: -30px;
+  }
+  .first .text .bakers .image img {
+    width: 80%;
+    border-radius: 70rem;
+  }
+  .first .text .bakers .taxt {
+    margin-top: -10px;
+    margin-left: -40px;
+  }
+  .first .text .bakers .taxt h5 {
+    color: #b2904c;
+    font-size: 23px;
+  }
+  .second .pictures {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .second .pictures img {
+    width: 100%;
+  }
+  .second .pictures .image-onee {
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .second .pictures .image-onee .gif {
+    position: absolute;
+    top: 15%;
+    margin-left: 0%;
+  }
+  .second .pictures .image-onee .gif img {
+    width: 100%;
+  }
+  .second .pictures .image-twoo {
+    width: 80%;
+    margin-left: -5%;
+    margin-top: 30px;
+    position: relative;
+  }
+  .second .pictures .image-twoo .gif {
+    position: absolute;
+    top: 15%;
+    margin-left: 0%;
+  }
+  .second .pictures .image-twoo .gif img {
+    width: 100%;
+  }
+  .second .pictures .image-thre {
+    width: 80%;
+    margin-top: 2.5%;
+    position: relative;
+    margin-left: 10%;
+  }
+  .second .pictures .image-thre .gif {
+    position: absolute;
+    top: 15%;
+    margin-left: 0%;
+  }
+  .second .pictures .image-thre .gif img {
+    width: 100%;
+  }
+  .second .pictures .image-fourr {
+    width: 80%;
+    margin-left: -5%;
+    margin-top: 20px;
+    position: relative;
+  }
+  .second .pictures .image-fourr .gif {
+    position: absolute;
+    top: 15%;
+    margin-left: 0%;
+  }
+  .second .pictures .image-fourr .gif img {
+    width: 100%;
+  }
+  .second .pictures .gif {
+    position: absolute;
+    top: 0%;
+    margin-left: 0px;
+  }
+  .second .pictures .gif img {
+    width: 50%;
+  }
+  .second .pictures .overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.431);
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    border-radius: 5px;
+  }
+  .second .hidden {
+    visibility: hidden;
+  }
+  .second .show {
+    visibility: visible;
+  }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+/* Set width to make card deck cards 100% width *//*# sourceMappingURL=Recipes.css.map */

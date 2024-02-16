@@ -48,10 +48,8 @@ const Nav = () => {
                         <li class="nav-item">
                           <a class="nav-link" href="/kids">Kid's Corner</a>
                         </li>
-                        
-                        
                       </ul>
-                     
+                        <button className="nav-bttn"><NavLink to="/contact"><span>CONTACT US</span></NavLink></button>
                     </div>
                   </div>
                 </div>

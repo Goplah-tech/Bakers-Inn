@@ -3,6 +3,7 @@ import TabBoot from './TabBoot';
 import Footer from './Footer';
 import Factory from './Factory';
 import { useState } from 'react';
+import { NavLink } from "react-router-dom";
 // import { Link } from 'react';
 // import Donation from './Donation'
 
@@ -46,7 +47,7 @@ function toggle (){
             <div className="tsee-one"></div>
             <div className="tsee-two"></div>
             <p>{para}</p>
-            <button>READ MORE</button>
+            <button><NavLink to="about"><span>READ MORE</span></NavLink></button>
         </div>
         <div className="image-first">
             <img src="./imgs/groupheader bread.png" alt="" />
@@ -56,7 +57,7 @@ function toggle (){
             
         </div>
       </div>
-      <div className="about">
+      <div id='about' className="about">
         <div className="about-text">
         <div className="first">
             <h1>{title}</h1>
@@ -64,7 +65,7 @@ function toggle (){
         <div className="second">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus <br /> ex quo eveniet  neque ad ipsam labore repellendus voluptatem recusandae <br /> cupiditate culpa saepe praesentium natus suscipit odit inventore minus repellat.  <br /> Repudiandae alias beatae quo voluptatum!</p>
             
-                <button>READ MORE</button>
+                <button><NavLink to="about"><span>READ MORE</span></NavLink></button>
             
         </div>
         </div>
@@ -137,53 +138,64 @@ function toggle (){
                     </div>
                     <div class="modal modal-xl fade" id="staticBackdrop" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog">
-                            <div class="modal-content">
-                            
-                                
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
-                            
+                            <div class="modal-content">    
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>   
                             <div class="modal-body">
                             <h2>Request Product Donations</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quo exercitationem sapiente itaque, aut placeat praesentium perspiciatis <br /> dicta tempora molestiae alias reprehenderit dolores delectus minima modi, voluptatibus vel veniam, maxime quia! Minima.</p>
                                     <div className="inputs">
                                         <input type="text" placeholder="Name of Organisation" />
-                                        <input type="text" placeholder="Name of Organisation" />
+                                        <input type="text" placeholder="Name of Contact Person" />
                                     </div>
                                     <div className="inputs">
-                                        <input type="text" placeholder="Name of Organisation" />
-                                        <input type="text" placeholder="Name of Organisation" />
+                                        <input type="text" placeholder="Contact Person Position" />
+                                        <input type="text" placeholder="Organisation Address" />
                                     </div>
                                     <div className="inputs">
-                                        <input type="text" placeholder="Name of Organisation" />
-                                        <input type="text" placeholder="Name of Organisation" />
+                                        <input type="text" placeholder="Contact Person's Telephone" />
+                                        <input type="text" placeholder="Contact Person's E-mail" />
                                     </div>
                                     <div className="inputs">
-                                        <input type="text" placeholder="Name of Organisation" />
-                                        <input type="text" placeholder="Name of Organisation" />
+                                        <input type="text" placeholder="Date Of Event" />
+                                            <div class="dropdown">
+                                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Intended Use Of Donation
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                                                <li><a class="dropdown-item active" href="/">Action</a></li>
+                                                <li><a class="dropdown-item" href="/">Another action</a></li>
+                                                <li><a class="dropdown-item" href="/">Something else here</a></li>
+                                                <li><hr class="dropdown-divider"/></li>
+                                                <li><a class="dropdown-item" href="/">Separated link</a></li>
+                                            </ul>
+                                            </div>
                                     </div>
                                     <div className="inputs">
-                                        <input type="text" placeholder="Name of Organisation" />
-                                        <input type="text" placeholder="Name of Organisation" />
-                                    </div>
-                                   
-                                    {/* <div className="textng">
-                                        <p>Plant Visit <a href="/">Terms & Conditions</a></p>
-                                        <p>Plant Visit <a href="/">Safety Regulations</a></p>
-                                    </div>
-                                    <div className="long-text">
-                                        <div className="box"></div>
-                                        <p>Your organisation has agreed to the submission of this application and you have authorisation to submit it. The information you <br /> have provided on behalf of your organisation is accurate, full and correct.</p>
-                                    </div>
-                                    <div className="short-text">
-                                        <div className="box"></div>
-                                        <p>Have Read The Safety Regulations</p>
-                                    </div> */}
-                                    <button className='proceed'>PROCEED TO NEXT STEP</button>
-                            </div>
-                            
+                                        <input type="text" placeholder="Number Of Attendants" />
+                                        <input type="text" placeholder="What product Are Specifically Looking For?" />
+                                    </div>    
+                                    <button class="btn proceed-button" data-bs-toggle="modal" data-bs-target="#proceed">PROCEED TO NEXT STEP</button> 
+                            </div>                    
                             </div>
                         </div>
                     </div>
+                            <div class="modal modal-xl fade" id="proceed" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                                        <div class="modal-body proceed">
+                                            <h3>Request Product Donations</h3>
+                                            <div className="inputs">
+                                                <input type="text" placeholder="How Do You Intend On Using The Product?" />
+                                                <input type="text" placeholder="How will the community benefit from you as a result of our donation?" />
+                                                <input type="text" placeholder="If there is any additional information that you like to supply us with, which we have not asked you about, please let" />
+                                            </div>
+                                                <button>SUBMIT APPLICATION</button>
+                                        </div>
+                                           
+                                    </div>
+                                </div>
+                            </div>
                 </div>
             </div>
         </div>
@@ -203,7 +215,7 @@ function toggle (){
             
         </div>
         <p>Lorem ipsum dolor consectetur adipisicing elit. <br /> Eaque quod, suscipit assumenda  at recusandae est. <br /> Ipsam dolorem unde sit exercitationem sed!</p>
-        <button>PLAY GAMES</button>
+        <button><NavLink to="kids"><span>PLAY GAMES</span></NavLink></button>
         </div>
       </div>
       <TabBoot/>

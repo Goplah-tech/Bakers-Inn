@@ -1,0 +1,575 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.homee {
+  display: flex;
+  flex-direction: column;
+}
+.homee .text {
+  width: 40%;
+}
+.homee .text h1 {
+  font-family: "dumb";
+  color: rgb(47, 9, 113);
+  font-size: 90px;
+  line-height: 80px;
+}
+.homee .picture img {
+  width: 100%;
+  margin-top: -30px;
+}
+
+.maze {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 131, 249);
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+.maze .texting {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 0px;
+}
+.maze .texting h2 {
+  font-family: "black";
+  margin-left: 10px;
+  margin-top: 50px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.maze .texting p {
+  color: rgb(250, 250, 250);
+  font-size: 20px;
+  line-height: 25px;
+  font-family: "light";
+  margin-left: 0px;
+}
+.maze .texting button {
+  height: 54px;
+  width: 220px;
+  border-radius: 5px;
+  border: 0;
+  background-color: rgb(182, 146, 61);
+  margin-bottom: 40px;
+  color: white;
+  font-size: 20px;
+  font-family: "black";
+  margin-top: 15px;
+  margin-left: 55px;
+}
+.maze .imag {
+  margin-left: 5%;
+  margin-top: 0%;
+}
+.maze .imag img {
+  width: 95%;
+  margin-bottom: 20px;
+}
+
+.risky {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 29, 67);
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+  margin-top: 60px;
+}
+.risky .texting {
+  width: 100%;
+  text-align: center;
+}
+.risky .texting h2 {
+  font-family: "black";
+  margin-left: 0px;
+  margin-top: 50px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+.risky .texting p {
+  color: rgb(250, 250, 250);
+  font-size: 20px;
+  line-height: 25px;
+  font-family: "light";
+  margin-left: 0px;
+}
+.risky .texting button {
+  height: 54px;
+  width: 220px;
+  border-radius: 5px;
+  border: 0;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 40px;
+  color: rgb(255, 29, 67);
+  font-size: 20px;
+  font-family: "black";
+  margin-top: 15px;
+  margin-left: 0px;
+}
+.risky .imag {
+  margin-left: 0%;
+  margin-top: 0%;
+}
+.risky .imag img {
+  width: 100%;
+}
+
+.pacman {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(45, 1, 112);
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+  margin-top: 60px;
+}
+.pacman .texting {
+  width: 100%;
+  text-align: center;
+}
+.pacman .texting h2 {
+  font-family: "black";
+  margin-left: 0px;
+  margin-top: 50px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+.pacman .texting p {
+  color: rgb(250, 250, 250);
+  font-size: 20px;
+  line-height: 25px;
+  font-family: "light";
+  margin-left: 0px;
+}
+.pacman .texting button {
+  height: 54px;
+  width: 220px;
+  border-radius: 5px;
+  border: 0;
+  background-color: rgb(182, 146, 61);
+  margin-bottom: 40px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: "black";
+  margin-top: 15px;
+  margin-left: 0px;
+}
+.pacman .imag {
+  margin-left: 0%;
+  margin-top: 0%;
+}
+.pacman .imag img {
+  width: 100%;
+}
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+/* Small devices (landscape phones, 576px and up) */
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .homee {
+    display: flex;
+    flex-direction: row;
+  }
+  .homee .text {
+    width: 40%;
+  }
+  .homee .text h1 {
+    font-family: "dumb";
+    color: rgb(47, 9, 113);
+    font-size: 90px;
+    line-height: 80px;
+  }
+  .homee .picture img {
+    width: 100%;
+    margin-top: -30px;
+  }
+  .maze {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 131, 249);
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    margin-top: 40px;
+  }
+  .maze .texting {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .maze .texting h2 {
+    font-family: "black";
+    margin-left: 10px;
+    margin-top: 50px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  .maze .texting p {
+    color: rgb(250, 250, 250);
+    font-size: 20px;
+    line-height: 25px;
+    font-family: "light";
+    margin-left: 0px;
+  }
+  .maze .texting button {
+    height: 54px;
+    width: 220px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(182, 146, 61);
+    margin-bottom: 40px;
+    color: white;
+    font-size: 20px;
+    font-family: "black";
+    margin-top: 15px;
+    margin-left: 55px;
+  }
+  .maze .imag {
+    margin-left: 5%;
+    margin-top: 0%;
+  }
+  .maze .imag img {
+    width: 95%;
+    margin-bottom: 20px;
+  }
+  .risky {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 29, 67);
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    margin-top: 60px;
+  }
+  .risky .texting {
+    width: 100%;
+    text-align: center;
+  }
+  .risky .texting h2 {
+    font-family: "black";
+    margin-left: 0px;
+    margin-top: 50px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+  }
+  .risky .texting p {
+    color: rgb(250, 250, 250);
+    font-size: 20px;
+    line-height: 25px;
+    font-family: "light";
+    margin-left: 0px;
+  }
+  .risky .texting button {
+    height: 54px;
+    width: 220px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+    color: rgb(255, 29, 67);
+    font-size: 20px;
+    font-family: "black";
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+  .risky .imag {
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+  .risky .imag img {
+    width: 100%;
+  }
+  .pacman {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(45, 1, 112);
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    margin-top: 60px;
+  }
+  .pacman .texting {
+    width: 100%;
+    text-align: center;
+  }
+  .pacman .texting h2 {
+    font-family: "black";
+    margin-left: 0px;
+    margin-top: 50px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+  }
+  .pacman .texting p {
+    color: rgb(250, 250, 250);
+    font-size: 20px;
+    line-height: 25px;
+    font-family: "light";
+    margin-left: 0px;
+  }
+  .pacman .texting button {
+    height: 54px;
+    width: 220px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(182, 146, 61);
+    margin-bottom: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: "black";
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+  .pacman .imag {
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+  .pacman .imag img {
+    width: 100%;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .homee {
+    display: flex;
+    flex-direction: row;
+  }
+  .homee .text {
+    width: 50%;
+  }
+  .homee .text h1 {
+    font-family: "dumb";
+    color: rgb(47, 9, 113);
+    font-size: 120px;
+    line-height: 120px;
+  }
+  .homee .picture img {
+    width: 100%;
+    margin-top: -50px;
+  }
+  .maze {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 131, 249);
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    margin-top: 40px;
+  }
+  .maze .texting {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-left: 90px;
+  }
+  .maze .texting h2 {
+    font-family: "black";
+    margin-left: 0px;
+    margin-top: 120px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-align: start;
+  }
+  .maze .texting p {
+    color: rgb(250, 250, 250);
+    font-size: 20px;
+    line-height: 25px;
+    font-family: "heavy";
+    margin-left: 0px;
+  }
+  .maze .texting button {
+    height: 54px;
+    width: 220px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(182, 146, 61);
+    margin-bottom: 40px;
+    color: white;
+    font-size: 20px;
+    font-family: "black";
+    margin-top: 15px;
+    margin-left: 5px;
+  }
+  .maze .imag {
+    margin-left: 10%;
+    margin-top: 3%;
+  }
+  .maze .imag img {
+    width: 90%;
+    margin-bottom: 50px;
+  }
+  .risky {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 29, 67);
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    margin-top: 60px;
+  }
+  .risky .texting {
+    width: 50%;
+    text-align: start;
+    margin-left: 90px;
+  }
+  .risky .texting h2 {
+    font-family: "black";
+    margin-left: 0px;
+    margin-top: 120px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+  }
+  .risky .texting p {
+    color: rgb(250, 250, 250);
+    font-size: 20px;
+    line-height: 25px;
+    font-family: "heavy";
+    margin-left: 0px;
+  }
+  .risky .texting button {
+    height: 54px;
+    width: 220px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+    color: rgb(255, 29, 67);
+    font-size: 20px;
+    font-family: "black";
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+  .risky .imag {
+    margin-left: 15%;
+    margin-top: 3%;
+  }
+  .risky .imag img {
+    width: 100%;
+  }
+  .pacman {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(45, 1, 112);
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    margin-top: 60px;
+  }
+  .pacman .texting {
+    width: 50%;
+    text-align: start;
+    margin-left: 90px;
+  }
+  .pacman .texting h2 {
+    font-family: "black";
+    margin-left: 0px;
+    margin-top: 120px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+  }
+  .pacman .texting p {
+    color: rgb(250, 250, 250);
+    font-size: 20px;
+    line-height: 25px;
+    font-family: "heavy";
+    margin-left: 0px;
+  }
+  .pacman .texting button {
+    height: 54px;
+    width: 220px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(182, 146, 61);
+    margin-bottom: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: "black";
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+  .pacman .imag {
+    margin-left: 15%;
+    margin-top: 3%;
+  }
+  .pacman .imag img {
+    width: 80%;
+  }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+/* Set width to make card deck cards 100% width *//*# sourceMappingURL=Kids.css.map */

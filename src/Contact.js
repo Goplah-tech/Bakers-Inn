@@ -57,9 +57,9 @@ const Contact = () => {
                             <table class="table table-bordered">
     <thead>
       <tr className='head'>
-        <th className='first'>Firstname</th>
-        <th className='second'>Lastname</th>
-        <th className='third'>Email</th>
+        <th className='first'>Depot</th>
+        <th className='second'>Address</th>
+        <th className='third'>Phone Number</th>
       </tr>
     </thead>
     <tbody>
@@ -101,17 +101,17 @@ const Contact = () => {
       <tr className='first-row'>
         <td className='depot'>Masvingo Depot</td>
         <td className='address'>1310 Mineral Road, Masving</td>
-        <td className='number'>john@example.com</td>
+        <td className='number'>039 266 333</td>
       </tr>
       <tr className='second-row'>
-        <td className='depot'>Mary</td>
-        <td className='address'>Moe</td>
-        <td className='number'>mary@example.com</td>
+        <td className='depot'>Gweru Deport</td>
+        <td className='address'>1843 Main Street, Gweru</td>
+        <td className='number'>054 2220 858</td>
       </tr>
       <tr className='third-row'>
-        <td className='depot'>July</td>
-        <td className='address'>Dooley</td>
-        <td className='number'>july@example.com</td>
+        <td className='depot'>Zvishavane Deport</td>
+        <td className='address'>Shabanie Mine Club, Noelville, Zvishavane</td>
+        <td className='number'>0772 395567</td>
       </tr>
     </tbody>
   </table>
@@ -125,7 +125,7 @@ const Contact = () => {
                         </div>
                         <div className="enquiries">
                         <div className="job-enquiries">
-                            <h5>For job enquiries , email your CV to</h5>
+                            <h5>For job enquiries, email your CV to</h5>
                             <a href="/">hr@bakersinnzim.com</a>
                         </div> <div className="general-enquiries">
                             <h5>For general enquiries , email</h5>

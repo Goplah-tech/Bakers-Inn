@@ -34,18 +34,18 @@ const Recipes = () => {
     let text = "Make the finest croissants worthy of  Paris from your  home";
     let hash = "#Croissants #Zimbabwe #Paris #Baker's_Inn";
 
-    if (love == 1) {
+    if (love === 1) {
         text = "Make the finest croissants worthy of  Paris from your  home";
         hash = "#Croissants #Zimbabwe #Paris #Baker's_Inn"
-    }else if(love == 2){
-        text = "Goplah";
-        hash = "Stim"
-    }else if(love == 3){
-        text = "Lovemore";
-        hash = "Mupini"
-    }else if(love == 4){
-        text = "Vamupini";
-        hash = "Stimela"
+    }else if(love === 2){
+        text = "English breakfast done right with Baker's Inn Bread";
+        hash = "#British #Bakers #Breakfast"
+    }else if(love === 3){
+        text = "Forget Chimodho, here's a better recipe that makes use of";
+        hash = "thise same ingredients #Chimodho #Local #Baker's_Inn"
+    }else if(love === 4){
+        text = "Ever wondered how our bread is made? Check this out";
+        hash = "#Baker's Inn #Baker #Zimbabwe"
     }
     return (
         <section className="recipes">

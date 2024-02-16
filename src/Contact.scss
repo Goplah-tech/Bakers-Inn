@@ -60,29 +60,30 @@ $gold : #b2904c;
 
 
 .homeee{
+	margin-top: 90px;
     background-image: url('contactusheader.png');
     position: relative;
     height: 600px;
     border-radius: 10px;
     margin-left: 30px;
     margin-right: 30px;
-    h2{ position: absolute;font-family: 'black';margin-left: 50px;font-size: 50px;color: rgb(255, 255, 255);top: 85%;}
-    img{position: absolute; top: 87%; left: 95%;}
+    h2{ position: absolute;font-family: 'black';margin-left: 20px;font-size: 30px;color: rgb(255, 255, 255);top: 90%;}
+    img{position: absolute; top: 87%; left: 85%;}
     .products-overlay{ bottom: 0; left: 0; position: absolute;  width: 100%; height: 164px; background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%); transform: matrix(1, 0, 0, -1, 0, 0); border-radius: 7px;}
 }
 
 .contacting{
-	background-color: rgb(247, 246, 230); margin-left: 30px; margin-right: 30px; border-radius: 10px; margin-top: 180px;
-	.harare{ margin-left: 20px; margin-top: 70px;
-		img{width: 80%;}
-		h3{font-family: 'black';margin-left: 0px;margin-top: 50px;font-size: 35px;color: rgb(47, 9, 113);line-height: 5px;}
+	background-color: rgb(247, 246, 230); margin-left: 30px; margin-right: 30px; border-radius: 10px; margin-top: 80px;
+	.harare{ margin-left: 0px; margin-top: 70px;
+		img{width: 100%;}
+		h3{font-family: 'black';margin-left: 0px;margin-top: 50px;font-size: 30px;color: rgb(47, 9, 113);line-height: 35px;}
 		p{margin-left: 0px;margin-top: 20px;line-height: 20px;font-size: 17px;font-family: 'light';color: rgb(39, 14, 86);}
 		.voip{display: flex; margin-top: 10px; margin-bottom: 0px;
 			h5{font-family: 'black';margin-left: 0px;margin-top: 8px;font-size: 20px;color: rgb(47, 9, 113);line-height: 5px;}
 			p{margin-left: 10px;margin-top: -0.001px;}
 		}
 		.toll{display: flex;margin-bottom: 60px;
-			h5{font-family: 'black';margin-left: 0px;margin-top: 8px;font-size: 20px;color: rgb(47, 9, 113);line-height: 5px;}
+			h5{font-family: 'black';margin-left: 0px;margin-top: 8px;font-size: 20px;color: rgb(47, 9, 113);line-height: 15px;}
 			p{margin-left: 10px;margin-top: -0.001px;}
 		}
 	}
@@ -95,8 +96,8 @@ $gold : #b2904c;
 		img{width: 100%;}
 	}
 	.enquiries{
-		display: flex; flex-direction: row; justify-content: center; margin-top: -60px; margin-bottom: 70px;
-		h5{font-family: 'black';margin-left: 0px;margin-top: 8px;font-size: 23px;color: rgb(47, 9, 113);line-height: 5px;}
+		display: flex; flex-direction: column; justify-content: center; margin-top: -60px; margin-bottom: 70px;
+		h5{font-family: 'medium';margin-left: 0px;margin-top: 38px;font-size: 20px;color: rgb(47, 9, 113);line-height: 25px;}
 		a{margin-left: 0px;margin-top: 20px;line-height: 20px;font-size: 19px;font-family: 'light';color: rgb(39, 14, 86);}
 		.job-enquiries{margin-right: 260px;}
 	}
@@ -104,26 +105,26 @@ $gold : #b2904c;
 
 .callback{
 	text-align: center;
-	h2{font-family: 'black';margin-left: 0px;margin-top: 220px;font-size: 45px;color: rgb(45, 1, 112);line-height: 5px;}
+	h2{font-family: 'black';margin-left: 0px;margin-top: 80px;font-size: 35px;color: rgb(45, 1, 112);line-height: 5px;}
 	p{margin-left: 0px;margin-top: 50px;margin-bottom: 30px; line-height: 20px;font-size: 20px;font-family: 'light';color: rgb(37, 0, 124);}
-	.inputs{ padding: 10px;
-		input{width: 500px;height: 60px;border: 0;padding: 20px;margin: 10px;font-family: 'heavy';font-size: 18px;background-color: rgb(247, 246, 231);border-radius: 2px;}
+	.inputs{ padding: 0px;
+		input{width: 350px;height: 60px;border: 0;padding: 20px;margin: 10px;font-family: 'heavy';font-size: 18px;background-color: rgb(247, 246, 231);border-radius: 2px;}
 	}
 	.last-input{ padding: 10px;
-		input{width: 1020px;height: 60px;border: 0;padding: 20px;margin: 10px;font-family: 'heavy';font-size: 18px;background-color: rgb(247, 246, 231);border-radius: 2px;}
+		input{width: 350px;height: 60px;border: 0;padding: 20px;margin: 10px;font-family: 'heavy';font-size: 18px;background-color: rgb(247, 246, 231);border-radius: 2px;}
 	  }
 	  .textarea{
-		textarea{width: 1020px;height: 280px;border: 0;background-color: rgb(247, 246, 231);border-radius: 2px;padding: 20px;margin: 10px;font-family: 'heavy';font-size: 18px;}
+		textarea{width: 350px;height: 280px;border: 0;background-color: rgb(247, 246, 231);border-radius: 2px;padding: 20px;margin: 10px;font-family: 'heavy';font-size: 18px;}
 	  }
-	  button{height: 62px;width: 1020px;border-radius: 5px;border: 0;background-color: rgb(182, 146, 61);margin-bottom: 0px;color: white;font-size: 20px;font-family: 'heavy';margin-top: 15px;margin-left: 0px;}
+	  button{height: 62px;width: 350px;border-radius: 5px;border: 0;background-color: rgb(182, 146, 61);margin-bottom: 0px;color: white;font-size: 20px;font-family: 'heavy';margin-top: 15px;margin-left: 0px;}
 }
 
 .tablee{ width: 100%; 
-	h2{text-align: center;font-family: 'black';margin-left: 0px;margin-top: 160px;font-size: 45px;color: rgb(45, 1, 112);line-height: 5px;}
+	h2{text-align: center;font-family: 'black';margin-left: 0px;margin-top: 60px;font-size: 45px;color: rgb(45, 1, 112);line-height: 5px;}
 	.head{border-top: none; padding: 30px; border-bottom: 2px solid (182, 146, 61, 0.148);}
 		
-	.table-bordered{width: 100%;height: 60px;margin-top: 90px;
-		thead{border-top: 0%;margin-top: 0px;font-family: 'black';margin-left: 0px;margin-top: 0px;font-size: 23px;color: rgb(87, 66, 141);height: 50px;
+	.table-bordered{width: 100%;height: 60px;margin-top: 50px;
+		thead{border-top: 0%;margin-top: 0px;font-family: 'black';margin-left: 0px;margin-top: 0px;font-size: 22px;color: rgb(87, 66, 141);height: 50px;
 			td{padding: 20px;}
 			th{border-top: none;border-bottom: 2px solid rgba(182, 146, 61, 0.148);}
 			.first{border-left: none;}
@@ -131,9 +132,9 @@ $gold : #b2904c;
 			.second{border-left: 2px solid rgba(182, 146, 61, 0.211);}
 		}
 		tbody{
-			.depot{font-family: 'black';margin-left: 0px;margin-top: 0px;font-size: 23px;color: rgb(87, 66, 141);height: 50px;border-top: 0; border-bottom: 0; }
-			.address{margin-left: 0px;margin-top: 50px;margin-bottom: 30px; line-height: 20px;font-size: 20px;font-family: 'light';color: rgb(87, 66, 141);}
-			.number{font-family: 'black';margin-left: 0px;margin-top: 0px;font-size: 23px;color: rgb(87, 66, 141);height: 50px;border-top: 0; border-bottom: 0; border-right: none;border-left: 2px solid rgba(182, 146, 61, 0.148);}
+			.depot{font-family: 'black';margin-left: 0px;margin-top: 0px;font-size: 19px;color: rgb(87, 66, 141);height: 0px;border-top: 0; border-bottom: 0; }
+			.address{margin-left: 0px;margin-top: 50px;margin-bottom: 30px; line-height: 0px;font-size: 18px;font-family: 'light';color: rgb(87, 66, 141);}
+			.number{font-family: 'medium';margin-left: 0px;margin-top: 0px;font-size: 18px;color: rgb(87, 66, 141);height: 50px;border-top: 0; border-bottom: 0; border-right: none;border-left: 2px solid rgba(182, 146, 61, 0.148);}
 			.first-row{border-left: none;}
 			tr{border: 3px solid blue; border: none; }
 			.depot{border-left: none;border-right: 2px solid rgba(182, 146, 61, 0.148);}
